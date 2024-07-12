@@ -15,7 +15,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-three": "^0.9.7",
-    "three": "0.153.0"
+    "three": "0.153.0",
+    "vara": "^1.4.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

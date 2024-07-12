@@ -1,8 +1,43 @@
-#root {
-  width: 100vw;
-  height: 100vh;
-}
-
 body {
   margin: 0;
+  background: linear-gradient(135deg, #8B0000 0%, #2C2C2C 100%);
+}
+
+.app-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 300%;
+  transform: rotate(-30deg);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  pointer-events: none;
+}
+
+.overlay-content-t {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  height: 50%;
+  transform: rotate(-30deg);
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  pointer-events: none;
+}
+
+#vara-container {
+  z-index: 20;
 }
