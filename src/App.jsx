@@ -18,7 +18,7 @@ function App() {
     // Delayed appearance of the second VaraText div
     const timer2 = setTimeout(() => {
       setShowVara2(true);
-    }, 6000); // Adjust delay between the two divs here
+    }, 5000); // Adjust delay between the two divs here
 
     return () => {
       clearTimeout(timer1);

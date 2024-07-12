@@ -24,7 +24,7 @@ function VaraText({ text, yPosition, id, delay = 0 }) {
         text: line.trim(), // Remove extra whitespace
         y: yPosition + index * 80, // Adjust vertical position for each line
         fromCurrentPosition: { y: false },
-        duration: 3000,
+        duration: 2500,
         delay: delay, // Apply the same delay to all lines within this VaraText component
       })),
       {
